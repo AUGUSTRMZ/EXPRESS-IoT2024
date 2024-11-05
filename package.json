@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
+<<<<<<< HEAD
+=======
+    "start:render": "node dist/index.js",
+>>>>>>> 292b7b8 (Deploy)
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "tsc",
@@ -22,7 +26,12 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+<<<<<<< HEAD
     "mysql2": "^3.11.3"
+=======
+    "mysql2": "^3.11.3",
+    "node": "^23.1.0"
+>>>>>>> 292b7b8 (Deploy)
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
@@ -37,7 +46,11 @@
     "nodemon": "^3.1.7",
     "prettier": "3.3.3",
     "ts-node": "^10.9.2",
+<<<<<<< HEAD
     "typescript": "^5.6.2",
+=======
+    "typescript": "^5.6.3",
+>>>>>>> 292b7b8 (Deploy)
     "typescript-eslint": "^8.8.0"
   }
 }
